@@ -1,5 +1,5 @@
 # BIOMETRIC-RECOGNITION-USING-GAIT-ANALYSIS
-This project 
+This project ....
 
 # Requirements
 The code was written in Python 3.5, but it is probably also compatible with other versions.
@@ -17,6 +17,12 @@ Responsibility of the second sub-network - GaitNN defined in gait_nn module is t
 
 # Pre-trained models
 HumanPoseNN: MPII + LSP
-Download: MPII+LSP.ckpt(https://drive.google.com/file/d/1bNoZkuI0TCqf_DV613SOAng3p6Y0Si6a/view?usp=sharing)
+Download: MPII+LSP.ckpt (https://drive.google.com/file/d/1bNoZkuI0TCqf_DV613SOAng3p6Y0Si6a/view)
 
 The checkpoint MPII+LSP.ckpt was trained on images from MPII and LSP database. In the graph below you can see the average distance between predicted and desired joints on a validation set of about 6 000 images.
+
+HumanPoseNN: Human 3.6m
+Download: Human3.6m.ckpt (action walking)(https://drive.google.com/file/d/1lup13q5lTzsbrRZafpNbVF8uUyblMpZ3/view)
+
+The checkpoint Human3.6m.ckpt was trained on the database Human 3.6m and only on the walking sequences of peoples S1, S6, S7, S8, S9 and S11 (48 sequences). 
+
