@@ -1,5 +1,5 @@
 # BIOMETRIC-RECOGNITION-USING-GAIT-ANALYSIS
-This project ....
+This project aims at analyzing the gait of a person in order to identify the person, hence providing an alternative to standard biometrics.
 
 # Requirements
 The code was written in Python 3.5, but it is probably also compatible with other versions.
